@@ -2953,3 +2953,48 @@ Processing by StaticPagesController#top as HTML
 Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms | Allocations: 3536)
 
 
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:34:49 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:35:42 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/" for 192.168.65.1 at 2024-03-27 22:39:49 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/top.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 4.0ms | Allocations: 656)
+  Rendered shared/_explanation.html.erb (Duration: 1.5ms | Allocations: 196)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 122)
+  Rendered static_pages/top.html.erb within layouts/application (Duration: 462.6ms | Allocations: 25347)
+  Rendered layout layouts/application.html.erb (Duration: 468.2ms | Allocations: 26826)
+Completed 200 OK in 485ms (Views: 472.5ms | ActiveRecord: 0.0ms | Allocations: 28943)
+
+
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:41:12 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:49:01 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:49:42 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 83.0ms | Allocations: 17823)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 122)
+  Rendered users/index.html.erb within layouts/application (Duration: 87.4ms | Allocations: 19187)
+  Rendered layout layouts/application.html.erb (Duration: 100.8ms | Allocations: 21824)
+Completed 200 OK in 118ms (Views: 105.0ms | ActiveRecord: 0.0ms | Allocations: 25700)
+
+
