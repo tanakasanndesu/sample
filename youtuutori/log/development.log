@@ -2998,3 +2998,64 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 118ms (Views: 105.0ms | ActiveRecord: 0.0ms | Allocations: 25700)
 
 
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:56:20 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 6.4ms | Allocations: 635)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered users/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 1295)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 3367)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 3874)
+
+
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:59:19 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 9.3ms | Allocations: 595)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered users/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1248)
+  Rendered layout layouts/application.html.erb (Duration: 251.8ms | Allocations: 5554)
+Completed 200 OK in 257ms (Views: 255.1ms | ActiveRecord: 0.0ms | Allocations: 5799)
+
+
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:59:20 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 5.3ms | Allocations: 595)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered users/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1248)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 3257)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 3500)
+
+
+Started GET "/" for 192.168.65.1 at 2024-03-27 22:59:21 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/top.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 2.1ms | Allocations: 502)
+  Rendered shared/_explanation.html.erb (Duration: 1.2ms | Allocations: 196)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered static_pages/top.html.erb within layouts/application (Duration: 11.4ms | Allocations: 2594)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3853)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 4481)
+
+
+Started GET "/users" for 192.168.65.1 at 2024-03-27 22:59:22 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 6.5ms | Allocations: 595)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered users/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1249)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 3250)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 3496)
+
+
