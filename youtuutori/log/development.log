@@ -2953,3 +2953,29 @@ Processing by StaticPagesController#top as HTML
 Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms | Allocations: 3536)
 
 
+Started GET "/" for 192.168.65.1 at 2024-03-27 19:00:00 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/top.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 6.3ms | Allocations: 662)
+  Rendered shared/_explanation.html.erb (Duration: 1.2ms | Allocations: 196)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 122)
+  Rendered static_pages/top.html.erb within layouts/application (Duration: 394.2ms | Allocations: 25700)
+  Rendered layout layouts/application.html.erb (Duration: 399.2ms | Allocations: 27198)
+Completed 200 OK in 419ms (Views: 404.4ms | ActiveRecord: 0.0ms | Allocations: 31127)
+
+
+Started GET "/" for 192.168.65.1 at 2024-03-27 19:04:50 +0900
+Cannot render console from 192.168.65.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/top.html.erb within layouts/application
+  Rendered shared/_header.html.erb (Duration: 12.4ms | Allocations: 494)
+  Rendered shared/_explanation.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered static_pages/top.html.erb within layouts/application (Duration: 35.3ms | Allocations: 2019)
+  Rendered layout layouts/application.html.erb (Duration: 39.9ms | Allocations: 3272)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 3518)
+
+
